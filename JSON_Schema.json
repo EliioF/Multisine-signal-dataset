@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "ID": {
+        "type": "number"
+      },
+      "Gain100_Distance10": {
+        "type": "number"
+      },
+      "Gain100_Distance15": {
+        "type": "number"
+      },
+      "Gain100_Distance20": {
+        "type": "number"
+      },
+      "Gain75_Distance10": {
+        "type": "number"
+      },
+      "Gain75_Distance15": {
+        "type": "number"
+      },
+      "Gain75_Distance20": {
+        "type": "number"
+      },
+      "Gain90_Distance25": {
+        "type": "number"
+      },
+      "Gain90_Distance30": {
+        "type": "number"
+      },
+      "Gain90_Distance35": {
+        "type": "number"
+      },
+      "Gain65_Distance25": {
+        "type": "number"
+      },
+      "Gain65_Distance30": {
+        "type": "number"
+      },
+      "Gain65_Distance35": {
+        "type": "number"
+      },
+      "Indicator": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "ID",
+      "Gain100_Distance10",
+      "Gain100_Distance15",
+      "Gain100_Distance20",
+      "Gain75_Distance10",
+      "Gain75_Distance15",
+      "Gain75_Distance20",
+      "Gain90_Distance25",
+      "Gain90_Distance30",
+      "Gain90_Distance35",
+      "Gain65_Distance25",
+      "Gain65_Distance30",
+      "Gain65_Distance35",
+      "Indicator"
+    ]
+  }
+}
