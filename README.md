@@ -9,4 +9,4 @@ The proposed SWIPT design considers that the information is encoded by varying t
 
 For the experimental measurements, we consider multisine signals with a number of tones $N \in \left\lbrace 2,4,8,16,32 \right\rbrace$. The USRP gain setting is $G \in \left\lbrace 31,27.9,23.25,20.15 \right\rbrace$ dB, and the transmitter-receiver distance is $d \in \left\lbrace 10,15,20,25,30,35 \right\rbrace$ cm. A fixed operating frequency of 915 MHz is considered.
 
-For more details, please refer to the research paper (10.5281/zenodo.15225384).
+For more details, please refer to the research paper available at: https://ieeexplore.ieee.org/document/11062143.
