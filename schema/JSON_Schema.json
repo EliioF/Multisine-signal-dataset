@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Multisine SWIPT RSSI/Power Dataset Schema",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "integer",
+      "description": "Unique identifier for each repeated experimental sample."
+    },
+    "Gain100_Distance10": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 100 percent and transmitter-receiver distance 10 cm."
+    },
+    "Gain100_Distance15": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 100 percent and transmitter-receiver distance 15 cm."
+    },
+    "Gain100_Distance20": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 100 percent and transmitter-receiver distance 20 cm."
+    },
+    "Gain75_Distance10": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 75 percent and transmitter-receiver distance 10 cm."
+    },
+    "Gain75_Distance15": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 75 percent and transmitter-receiver distance 15 cm."
+    },
+    "Gain75_Distance20": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 75 percent and transmitter-receiver distance 20 cm."
+    },
+    "Gain90_Distance25": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 90 percent and transmitter-receiver distance 25 cm."
+    },
+    "Gain90_Distance30": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 90 percent and transmitter-receiver distance 30 cm."
+    },
+    "Gain90_Distance35": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 90 percent and transmitter-receiver distance 35 cm."
+    },
+    "Gain65_Distance25": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 65 percent and transmitter-receiver distance 25 cm."
+    },
+    "Gain65_Distance30": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 65 percent and transmitter-receiver distance 30 cm."
+    },
+    "Gain65_Distance35": {
+      "type": "number",
+      "minimum": 0,
+      "unit": "mW",
+      "description": "Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 65 percent and transmitter-receiver distance 35 cm."
+    },
+    "Indicator": {
+      "type": "integer",
+      "description": "Target class label indicating the transmitted multisine waveform tone count. Mapping: 0=N2, 1=N4, 2=N8, 3=N16, 4=N32.",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "required": [
+    "ID",
+    "Gain100_Distance10",
+    "Gain100_Distance15",
+    "Gain100_Distance20",
+    "Gain75_Distance10",
+    "Gain75_Distance15",
+    "Gain75_Distance20",
+    "Gain90_Distance25",
+    "Gain90_Distance30",
+    "Gain90_Distance35",
+    "Gain65_Distance25",
+    "Gain65_Distance30",
+    "Gain65_Distance35",
+    "Indicator"
+  ],
+  "additionalProperties": false
+}
