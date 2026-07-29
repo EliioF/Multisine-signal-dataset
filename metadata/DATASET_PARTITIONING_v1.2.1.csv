@@ -1,0 +1,13 @@
+variable_name,dataset_group,intended_use,tx_gain_percent,tx_gain_db,distance_cm,measurement_unit,included_in_model_development,reserved_for_external_test,description
+Gain100_Distance10,A,training_validation_internal_testing,100,31,10,mW,yes,no,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 100 percent and transmitter-receiver distance 10 cm.
+Gain100_Distance15,A,training_validation_internal_testing,100,31,15,mW,yes,no,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 100 percent and transmitter-receiver distance 15 cm.
+Gain100_Distance20,A,training_validation_internal_testing,100,31,20,mW,yes,no,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 100 percent and transmitter-receiver distance 20 cm.
+Gain75_Distance10,A,training_validation_internal_testing,75,23.25,10,mW,yes,no,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 75 percent and transmitter-receiver distance 10 cm.
+Gain75_Distance15,A,training_validation_internal_testing,75,23.25,15,mW,yes,no,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 75 percent and transmitter-receiver distance 15 cm.
+Gain75_Distance20,A,training_validation_internal_testing,75,23.25,20,mW,yes,no,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 75 percent and transmitter-receiver distance 20 cm.
+Gain90_Distance25,B,external_testing_generalization,90,27.9,25,mW,no,yes,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 90 percent and transmitter-receiver distance 25 cm.
+Gain90_Distance30,B,external_testing_generalization,90,27.9,30,mW,no,yes,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 90 percent and transmitter-receiver distance 30 cm.
+Gain90_Distance35,B,external_testing_generalization,90,27.9,35,mW,no,yes,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 90 percent and transmitter-receiver distance 35 cm.
+Gain65_Distance25,B,external_testing_generalization,65,20.15,25,mW,no,yes,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 65 percent and transmitter-receiver distance 25 cm.
+Gain65_Distance30,B,external_testing_generalization,65,20.15,30,mW,no,yes,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 65 percent and transmitter-receiver distance 30 cm.
+Gain65_Distance35,B,external_testing_generalization,65,20.15,35,mW,no,yes,Receiver-side RSSI/power readout from HyperTerminal for USRP transmitter gain 65 percent and transmitter-receiver distance 35 cm.
